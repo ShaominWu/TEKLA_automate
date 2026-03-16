@@ -9,11 +9,15 @@
 - 还未正式命名（用户可能在叫我"小二"？待确认）
 - Model: anthropic/claude-sonnet-4-6
 
+## 用户偏好
+- 本地计算任务（学习、代码生成、建模）优先用 Ollama 本地模型，不消耗 API 额度
+- Model_Generator、Model_Inspector 等代理始终跑本地
+
 ## Notes
 - 2026-03-15: 首次对话，建立基本信息
 - 2026-03-15: 配置完成 — Telegram bot、Ollama qwen3.5:27b 备用模型、PDF_Data_Extractor 子代理（Gemini）
 - 2026-03-15: clone 了 TSOpenAPIExamples (branch: 2024) 到 workspace-master
-- **下次任务：** 用 Tekla Open API 建立轴线系统（Grid Lines），然后拆分任务给多个子代理完成
+- **下次任务（明天早上）：** 用 Tekla Open API 建立轴线系统（Grid Lines），测试完整流水线
 
 ## 子代理配置
 
