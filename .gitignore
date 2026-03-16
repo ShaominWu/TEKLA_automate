@@ -1,0 +1,11 @@
+# 敏感配置
+.openclaw/
+**/auth-profiles.json
+
+# 已处理的流水线文件
+pipeline/extracted/*.done
+pipeline/logs/
+
+# 系统文件
+Thumbs.db
+.DS_Store
